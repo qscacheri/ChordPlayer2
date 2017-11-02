@@ -13,7 +13,8 @@ class Chord {
 public:
     string root;
     int rootNum;
-    Chord(string r);
+
+     Chord(string r);
     int note2Num(string  note);
 };
 

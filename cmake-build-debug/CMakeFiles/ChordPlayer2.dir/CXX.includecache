@@ -35,6 +35,8 @@ iostream
 -
 Maj.h
 /Users/quinscacheri/CLionProjects/ChordPlayer2/Maj.h
+Chord.h
+/Users/quinscacheri/CLionProjects/ChordPlayer2/Chord.h
 
 /Users/quinscacheri/CLionProjects/ChordPlayer2/Maj.h
 iostream
@@ -45,6 +47,20 @@ string
 -
 Chord.h
 /Users/quinscacheri/CLionProjects/ChordPlayer2/Chord.h
+
+/Users/quinscacheri/CLionProjects/ChordPlayer2/Min.cpp
+Min.h
+/Users/quinscacheri/CLionProjects/ChordPlayer2/Min.h
+
+/Users/quinscacheri/CLionProjects/ChordPlayer2/Min.h
+iostream
+-
+fstream
+-
+string
+-
+Maj.h
+/Users/quinscacheri/CLionProjects/ChordPlayer2/Maj.h
 
 /Users/quinscacheri/CLionProjects/ChordPlayer2/main.cpp
 iostream

@@ -177,6 +177,33 @@ Maj.cpp.s:
 	$(MAKE) -f CMakeFiles/ChordPlayer2.dir/build.make CMakeFiles/ChordPlayer2.dir/Maj.cpp.s
 .PHONY : Maj.cpp.s
 
+Min.o: Min.cpp.o
+
+.PHONY : Min.o
+
+# target to build an object file
+Min.cpp.o:
+	$(MAKE) -f CMakeFiles/ChordPlayer2.dir/build.make CMakeFiles/ChordPlayer2.dir/Min.cpp.o
+.PHONY : Min.cpp.o
+
+Min.i: Min.cpp.i
+
+.PHONY : Min.i
+
+# target to preprocess a source file
+Min.cpp.i:
+	$(MAKE) -f CMakeFiles/ChordPlayer2.dir/build.make CMakeFiles/ChordPlayer2.dir/Min.cpp.i
+.PHONY : Min.cpp.i
+
+Min.s: Min.cpp.s
+
+.PHONY : Min.s
+
+# target to generate assembly for a file
+Min.cpp.s:
+	$(MAKE) -f CMakeFiles/ChordPlayer2.dir/build.make CMakeFiles/ChordPlayer2.dir/Min.cpp.s
+.PHONY : Min.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... Maj.o"
 	@echo "... Maj.i"
 	@echo "... Maj.s"
+	@echo "... Min.o"
+	@echo "... Min.i"
+	@echo "... Min.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

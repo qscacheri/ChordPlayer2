@@ -8,6 +8,11 @@ CMakeFiles/ChordPlayer2.dir/Maj.cpp.o: ../Chord.h
 CMakeFiles/ChordPlayer2.dir/Maj.cpp.o: ../Maj.cpp
 CMakeFiles/ChordPlayer2.dir/Maj.cpp.o: ../Maj.h
 
+CMakeFiles/ChordPlayer2.dir/Min.cpp.o: ../Chord.h
+CMakeFiles/ChordPlayer2.dir/Min.cpp.o: ../Maj.h
+CMakeFiles/ChordPlayer2.dir/Min.cpp.o: ../Min.cpp
+CMakeFiles/ChordPlayer2.dir/Min.cpp.o: ../Min.h
+
 CMakeFiles/ChordPlayer2.dir/main.cpp.o: ../Chord.h
 CMakeFiles/ChordPlayer2.dir/main.cpp.o: ../Maj.h
 CMakeFiles/ChordPlayer2.dir/main.cpp.o: ../main.cpp

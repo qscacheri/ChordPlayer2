@@ -1,8 +1,8 @@
 //
 // Created by Quin Scacheri on 11/2/17.
 //
-#ifndef UNTITLED1_MAJ_H
-#define UNTITLED1_MAJ_H
+#ifndef UNTITLED1_Min_H
+#define UNTITLED1_Min_H
 
 #include<iostream>
 #include<fstream>
@@ -11,7 +11,7 @@
 
 using namespace std;
 
-class Maj : public Chord {
+class Min : public Chord {
 public:
 
     int *noteArray;
@@ -19,9 +19,9 @@ public:
     char sharp = '#';
     int suspensions;
 
-    Maj(string r);
+    Min(string r);
 
-    Maj(string r, string sus);
+    Min(string r, string sus);
 
     void getNoteNums();
 

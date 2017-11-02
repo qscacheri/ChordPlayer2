@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ChordPlayer2.dir/main.cpp.o"
   "CMakeFiles/ChordPlayer2.dir/Chord.cpp.o"
   "CMakeFiles/ChordPlayer2.dir/Maj.cpp.o"
+  "CMakeFiles/ChordPlayer2.dir/Min.cpp.o"
   "ChordPlayer2.pdb"
   "ChordPlayer2"
 )

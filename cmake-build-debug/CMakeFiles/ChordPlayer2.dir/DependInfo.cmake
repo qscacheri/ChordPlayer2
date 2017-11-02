@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/quinscacheri/CLionProjects/ChordPlayer2/Chord.cpp" "/Users/quinscacheri/CLionProjects/ChordPlayer2/cmake-build-debug/CMakeFiles/ChordPlayer2.dir/Chord.cpp.o"
   "/Users/quinscacheri/CLionProjects/ChordPlayer2/Maj.cpp" "/Users/quinscacheri/CLionProjects/ChordPlayer2/cmake-build-debug/CMakeFiles/ChordPlayer2.dir/Maj.cpp.o"
+  "/Users/quinscacheri/CLionProjects/ChordPlayer2/Min.cpp" "/Users/quinscacheri/CLionProjects/ChordPlayer2/cmake-build-debug/CMakeFiles/ChordPlayer2.dir/Min.cpp.o"
   "/Users/quinscacheri/CLionProjects/ChordPlayer2/main.cpp" "/Users/quinscacheri/CLionProjects/ChordPlayer2/cmake-build-debug/CMakeFiles/ChordPlayer2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

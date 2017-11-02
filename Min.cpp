@@ -8,20 +8,20 @@
 #include <string>
 #include <sstream>
 #include <iostream>
-#include "Maj.h"
+#include "Min.h"
 #include "Chord.h"
 
 using namespace std;
 
 
-Maj::Maj(string root) : Chord(root) {
+Min::Min(string root) : Chord(root) {
 
     noteArray[0] = rootNum;
     noteArray[1] = findThird(rootNum);
     noteArray[2] = findFifth(rootNum);
 }
 
-Maj::Maj(string root, string sus) : Chord(root) {
+Min::Min(string root, string sus) : Chord(root) {
 
     string rootLetter = root;
     suspensions = findNumOfSus(sus);
@@ -38,21 +38,21 @@ Maj::Maj(string root, string sus) : Chord(root) {
     findSusNums(sus);
 }
 
-int Maj::findThird(int root) {
+int Min::findThird(int root) {
     if (rootNum + 4 > 11) {
         return rootNum - 8;
     } else
         return rootNum + 4;
 }
 
-int Maj::findFifth(int root) {
+int Min::findFifth(int root) {
     if (rootNum + 7 > 12) {
         return rootNum - 5;
     } else
         return rootNum + 7;
 }
 
-int Maj::findNumOfSus(string s) {
+int Min::findNumOfSus(string s) {
     int counter = 1;
     std::string s1 = s;
     std::string delimiter = ",";
@@ -68,7 +68,7 @@ int Maj::findNumOfSus(string s) {
     return counter;
 }
 
-void Maj::findSusNums(string s) {
+void Min::findSusNums(string s) {
 //    cout << "i hate c++" << std::endl;
     int mod;
     string temp = "";
@@ -149,11 +149,11 @@ void Maj::findSusNums(string s) {
 }
 
 
-string Maj::toString() {
+string Min::toString() {
     return rootLetter;
 }
 
-void Maj::getNoteNums() {
+void Min::getNoteNums() {
     for (int i = 0; i < NUMNOTES; i++) {
         cout << (noteArray[i]) << "\n" << std::endl;
 
